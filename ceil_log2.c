@@ -20,10 +20,13 @@ int ceil_log2(uint32_t x)
 
 int main()
 {
-    printf("%d\n",ceil_log2(0));
-    printf("%d\n",ceil_log2(1022));
-    printf("%d\n",ceil_log2(1024));
-    printf("%d\n",ceil_log2(0xFFFFF));
-    printf("%d\n",ceil_log2(0xFFFF1));
-
+    printf("0 : %d\n",ceil_log2(0));
+    printf("1 : %d\n",ceil_log2(1));
+    printf("2 : %d\n",ceil_log2(2));
+    printf("5 : %d\n",ceil_log2(5));
+    printf("8 : %d\n",ceil_log2(8));
+    printf("1022 : %d\n",ceil_log2(1022));
+    printf("1044 : %d\n",ceil_log2(1024));
+    printf("0xFFFFF : %d\n",ceil_log2(0xFFFFF));
+    printf("0xFFFF1 : %d\n",ceil_log2(0xFFFF1));
 }
