@@ -1,0 +1,15 @@
+Task 0: n = 2
+Task 1: n = 4
+Task 2: n = 3
+Task 0: resume 0
+Task 1: resume 0
+Task 2: resume 0
+Task 0: resume 1
+Task 0: complete
+Task 1: resume 1
+Task 2: resume 1
+Task 1: resume 2
+Task 2: resume 2
+Task 2: complete
+Task 1: resume 3
+Task 1: complete
